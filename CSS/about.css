@@ -530,4 +530,18 @@ ul {
          margin-right: 15px;
      }     
 }
-   
+/* SERVICE */
+.service-content {
+    border-bottom: 1px solid #f0f3f0;
+    margin-top: 80px;
+    padding-bottom: 80px;
+    align-items: center;
+}
+.service-content-4 {
+    border-bottom: none;
+}
+@media screen and (max-width: 768px) {
+    .service-content .swap {
+        order: 2;
+    }
+}
